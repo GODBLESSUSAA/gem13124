@@ -1,0 +1,167 @@
+.w-layout-blockcontainer { max-width: 940px; margin-left: auto; margin-right: auto; display: block; }
+.w-layout-grid { gap: 16px; grid-template-rows: auto auto; grid-template-columns: 1fr 1fr; grid-auto-columns: 1fr; display: grid; }
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer { max-width: 728px; }
+}
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer { max-width: none; }
+}
+.section { height: auto; background-image: url("opal-background-.jpeg"); background-position: 50% 70%; background-repeat: no-repeat; background-size: cover; }
+.hero-section { width: 100%; height: 90vh; flex-direction: column; justify-content: flex-start; align-items: center; padding-top: 202px; display: flex; }
+.section-2 { height: 110vh; flex-direction: column; align-items: center; padding-top: 150px; display: flex; }
+.features-grid { width: 90%; gap: 20px; grid-template-rows: auto; grid-template-columns: 33% 33% 33%; justify-content: center; justify-items: center; }
+.gradient-background { width: auto; height: auto; background-color: rgb(255, 255, 255); border-radius: 20px; padding: 2px; }
+.content-wrapper { width: auto; height: 100%; background-color: rgb(27, 64, 72); border-radius: 20px; padding: 20px; }
+.feature-top { align-items: center; display: flex; }
+.paragraph { color: rgb(255, 255, 255); text-align: left; margin-top: 10px; margin-bottom: 0px; font-family: Passionone, sans-serif; font-size: 20px; font-weight: 400; line-height: 30px; }
+.feature-title { color: rgb(255, 255, 255); font-family: Lemonada, sans-serif; font-weight: 900; }
+.feature-title.blue { color: rgb(110, 196, 218); margin-bottom: 20px; font-family: Lemonada, sans-serif; font-weight: 900; }
+.navbar { width: 100%; height: 10vh; background-color: rgba(221, 221, 221, 0); padding-top: 20px; }
+.feature-img-div { width: 50px; height: 50px; background-image: linear-gradient(145deg, rgb(61, 166, 194), rgb(63, 196, 46)); border-radius: 10px; justify-content: center; align-items: center; margin-right: 15px; display: flex; }
+.footer { background-color: rgb(0, 1, 3); border-top: 2px solid rgb(27, 65, 72); padding-top: 20px; padding-bottom: 40px; }
+.grid-2 { grid-template-rows: auto; grid-template-columns: 1fr 1fr 1fr; }
+.footer-link { color: rgb(255, 255, 255); margin-bottom: 15px; font-family: Passionone, sans-serif; font-size: 20px; text-decoration: none; }
+.div-block-4 { flex-direction: column; align-items: center; display: flex; }
+.div-block-5 { flex-direction: column; display: flex; }
+.heading-2 { color: rgb(0, 0, 0); text-align: center; -webkit-text-stroke: 0px rgb(255, 255, 205); font-family: Lemonada, sans-serif; font-weight: 900; }
+.div-block-6 { justify-content: center; align-items: center; padding-top: 10px; display: flex; overflow: hidden; }
+.text-block { color: rgb(82, 171, 139); margin-left: 10px; padding-top: 5px; padding-bottom: 10px; font-family: Lemonada, sans-serif; font-size: 30px; font-weight: 600; line-height: 50px; }
+.eth-option { margin-top: 10px; margin-bottom: 10px; font-family: Agrandir, sans-serif; font-size: 30px; font-weight: 900; }
+.eth-option.reth { color: rgb(239, 99, 57); }
+.eth-option.weth { color: rgb(255, 255, 255); -webkit-text-stroke: 2px rgb(0, 0, 0); }
+.eth-option.tricks { padding-top: 5px; line-height: 30px; overflow: hidden; }
+.eth-option.tricks.fade-up { margin-top: 0px; }
+.eth-bloc { color: rgb(3, 163, 255); flex-direction: column; align-items: center; margin-right: 20px; display: flex; overflow: hidden; }
+.container { max-width: 1400px; }
+.link-block { color: rgb(255, 255, 255); background-color: rgb(127, 82, 59); border: 2px solid rgb(255, 255, 255); border-radius: 15px; padding: 14px 23px; font-family: Poppins, sans-serif; font-size: 18px; font-weight: 900; text-decoration: none; transition: all 0.3s ease 0s; }
+.link-block:hover { color: rgb(127, 82, 59); background-color: rgb(255, 255, 255); border-color: rgb(127, 82, 59); }
+.link-block.dapp { color: rgb(255, 255, 204); -webkit-text-stroke: 0px rgb(82, 171, 139); border-width: 1px; border-color: rgb(255, 255, 204); justify-content: center; font-family: Lemonada, sans-serif; display: flex; position: relative; }
+.link-block.dapp:hover { color: rgb(82, 171, 139); -webkit-text-stroke-color: rgb(82, 171, 139); background-color: rgb(255, 255, 204); border-color: rgb(82, 171, 139); }
+.brand { width: 25%; }
+.body { background-color: rgb(0, 1, 3); }
+.container-2 { width: 90%; min-width: 90%; }
+.nav-menu { width: 75%; justify-content: flex-end; display: flex; }
+.container-3 { width: 95%; max-width: 1200px; margin-left: auto; margin-right: auto; }
+.change-text-wrapper { justify-content: center; align-items: center; display: flex; }
+.text-don-t-change { color: rgb(113, 199, 52); text-transform: capitalize; font-size: 40px; font-weight: 700; line-height: 50px; }
+.text-change-wrapper { height: 50px; padding-left: 10px; overflow: hidden; }
+.text-change-mover { flex-direction: column; display: flex; }
+.text-change { color: rgb(255, 255, 255); text-transform: none; justify-content: center; font-family: Agrandir, sans-serif; font-size: 30px; font-weight: 700; line-height: 50px; display: flex; }
+.text-change.orange { color: rgb(244, 139, 91); font-family: Passionone, sans-serif; font-size: 40px; font-weight: 400; line-height: 52px; }
+.text-change.blue { color: rgb(123, 193, 250); font-family: Passionone, sans-serif; font-size: 40px; font-weight: 400; line-height: 52px; }
+.text-change.black { -webkit-text-stroke: 2px rgb(220, 59, 121); font-family: Passionone, sans-serif; font-size: 40px; font-weight: 400; line-height: 52px; }
+.text-block-2.soon { position: absolute; inset: auto 0% 0% auto; }
+.div-block-7 { flex-direction: column; display: flex; position: relative; }
+@media screen and (min-width: 1440px) {
+  .hero-section { padding-top: 191px; }
+}
+@media screen and (min-width: 1920px) {
+  .hero-section { justify-content: flex-start; padding-top: 203px; }
+  .gradient-background { padding: 4px; }
+  .content-wrapper { padding: 32px; }
+  .paragraph { margin-top: 40px; font-size: 30px; line-height: 40px; }
+  .feature-title { font-size: 30px; }
+  .feature-img-div { width: 70px; height: 70px; }
+  .footer { justify-content: center; display: flex; }
+  .grid-2 { width: 100%; max-width: 1900px; }
+  .footer-link { font-size: 25px; line-height: 25px; }
+  .heading-2 { font-size: 50px; }
+  .link-block { border-width: 4px; padding: 25px 30px; }
+  .image { min-width: 60px; }
+  .container-2 { align-items: center; display: flex; }
+  .text-change.black { -webkit-text-stroke-color: rgb(220, 59, 121); }
+  .text-block-2 { font-size: 25px; }
+  .image-2 { width: 60%; }
+}
+@media screen and (max-width: 991px) {
+  .section { background-position: 65% center; }
+  .gradient-background { width: 100%; }
+  .feature-top { align-items: center; }
+  .paragraph { font-size: 16px; line-height: 24px; }
+  .feature-title { font-size: 16px; line-height: 22px; }
+  .navbar { padding-left: 20px; padding-right: 20px; }
+  .feature-img-div { width: 40px; height: 40px; min-height: 40px; min-width: 40px; }
+  .footer-link { margin-bottom: 10px; font-size: 16px; }
+  .heading-2 { font-size: 34px; }
+  .div-block-6 { margin-top: 40px; }
+  .text-block { font-size: 27px; }
+  .eth-option { font-size: 25px; }
+  .image { width: 90%; }
+  .text-don-t-change { font-size: 30px; line-height: 40px; }
+  .text-change-wrapper { height: 40px; }
+  .text-change { font-size: 30px; line-height: 40px; }
+  .text-change.orange, .text-change.blue, .text-change.black { font-size: 35px; line-height: 40px; }
+}
+@media screen and (max-width: 767px) {
+  .section-2 { height: auto; padding-top: 20px; padding-bottom: 20px; }
+  .features-grid { width: 70%; grid-template-rows: auto auto auto; grid-template-columns: 100%; }
+  .gradient-background { height: 200px; }
+  .content-wrapper { background-color: rgb(27, 64, 72); }
+  .feature-title.blue { font-size: 14px; }
+  .footer { overflow: hidden; }
+  .grid-2 { grid-template-columns: 33% 33% 33%; }
+  .footer-link { font-size: 12px; }
+  .div-block-4 { align-items: flex-start; padding-left: 10px; padding-right: 10px; }
+  .heading-2 { font-size: 30px; }
+  .text-block { padding-top: 8px; }
+  .brand { width: 25%; height: 100%; justify-content: center; align-items: center; display: flex; }
+  .container-2 { justify-content: space-between; align-items: center; display: flex; }
+  .nav-menu { width: 75%; justify-content: flex-end; display: flex; }
+  .text-don-t-change { font-size: 18px; line-height: 24px; }
+  .text-change-wrapper { height: 24px; }
+  .text-change { font-size: 18px; line-height: 24px; }
+  .text-change.orange, .text-change.blue, .text-change.black { line-height: 27px; }
+}
+@media screen and (max-width: 479px) {
+  .section { background-position: 40% center; }
+  .hero-section { justify-content: flex-start; padding-top: 133px; }
+  .features-grid { margin-bottom: 10px; }
+  .gradient-background { height: auto; }
+  .feature-title.blue { margin-bottom: 15px; font-size: 13px; }
+  .footer { padding-left: 10px; padding-right: 10px; }
+  .grid-2 { gap: 10px; justify-content: center; justify-items: center; }
+  .footer-link { margin: 2px; font-size: 11px; line-height: 15px; }
+  .div-block-4 { align-items: center; padding-left: 0px; padding-right: 0px; }
+  .div-block-5 { width: 100%; }
+  .div-block-6 { margin-top: 20px; }
+  .text-block { padding-bottom: 0px; }
+  .link-block { padding: 10px 15px; }
+  .brand { width: 30%; }
+  .nav-menu { width: 70%; }
+  .change-text-wrapper { text-align: center; flex-direction: column; }
+  .text-change-wrapper { margin-top: 10px; padding-left: 0px; }
+  .text-block-2 { font-size: 16px; }
+}
+#w-node-_07b9efab-6c4a-fdcd-9d48-7698f37637d1-aa760a80, #w-node-_2d189bc7-f98d-362b-e86c-275523f15cec-aa760a80, #w-node-_512adca2-0803-bd11-60b3-ab61761d3e8d-aa760a80 { grid-area: span 1 / span 1 / span 1 / span 1; }
+@font-face { font-family: "Poppins"; src: url("Poppins-LightItalic.ttf") format("truetype"); font-style: italic; font-weight: 300; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("Poppins-Thin.ttf") format("truetype"); font-style: normal; font-weight: 100; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("Poppins-MediumItalic.ttf") format("truetype"); font-style: italic; font-weight: 500; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("Poppins-SemiBold.ttf") format("truetype"); font-style: normal; font-weight: 600; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("Poppins-ExtraBoldItalic.ttf") format("truetype"), url("Poppins-BoldItalic.ttf") format("truetype"); font-style: italic; font-weight: 700; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("Poppins-BlackItalic.ttf") format("truetype"); font-style: italic; font-weight: 900; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("Poppins-SemiBoldItalic.ttf") format("truetype"); font-style: italic; font-weight: 600; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("Poppins-ExtraLightItalic.ttf") format("truetype"); font-style: italic; font-weight: 200; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("Poppins-ThinItalic.ttf") format("truetype"); font-style: italic; font-weight: 100; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("Poppins-Bold.ttf") format("truetype"), url("Poppins-ExtraBold.ttf") format("truetype"); font-style: normal; font-weight: 700; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("Poppins-Black.ttf") format("truetype"); font-style: normal; font-weight: 900; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("Poppins-Light.ttf") format("truetype"); font-style: normal; font-weight: 300; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("Poppins-Italic.ttf") format("truetype"); font-style: italic; font-weight: 400; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("Poppins-Regular.ttf") format("truetype"); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("Poppins-Medium.ttf") format("truetype"); font-style: normal; font-weight: 500; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("Poppins-ExtraLight.ttf") format("truetype"); font-style: normal; font-weight: 200; font-display: swap; }
+@font-face { font-family: "Passionone"; src: url("PassionOne-Bold.ttf") format("truetype"); font-style: normal; font-weight: 700; font-display: swap; }
+@font-face { font-family: "Passionone"; src: url("PassionOne-Regular.ttf") format("truetype"); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: "Passionone"; src: url("PassionOne-Black.ttf") format("truetype"); font-style: normal; font-weight: 900; font-display: swap; }
+@font-face { font-family: "Lemonada"; src: url("Lemonada-Bold.ttf") format("truetype"); font-style: normal; font-weight: 700; font-display: swap; }
+@font-face { font-family: "Lemonada"; src: url("Lemonada-Regular.ttf") format("truetype"); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: "Lemonada"; src: url("Lemonada-Medium.ttf") format("truetype"); font-style: normal; font-weight: 500; font-display: swap; }
+@font-face { font-family: "Lemonada"; src: url("Lemonada-Light.ttf") format("truetype"); font-style: normal; font-weight: 300; font-display: swap; }
+@font-face { font-family: "Lemonada"; src: url("Lemonada-SemiBold.ttf") format("truetype"); font-style: normal; font-weight: 600; font-display: swap; }
+@font-face { font-family: "Agrandir"; src: url("") format("opentype"); font-style: normal; font-weight: 700; font-display: swap; }
+@font-face { font-family: "Agrandir"; src: url("") format("opentype"); font-style: italic; font-weight: 900; font-display: swap; }
+@font-face { font-family: "Agrandir"; src: url("") format("opentype"), url("") format("opentype"); font-style: normal; font-weight: 300; font-display: swap; }
+@font-face { font-family: "Agrandir Tight"; src: url("") format("opentype"); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: "Agrandir"; src: url("") format("opentype"), url("") format("opentype"), url("") format("opentype"), url("") format("opentype"), url("") format("opentype"); font-style: normal; font-weight: 900; font-display: swap; }
+@font-face { font-family: "Agrandir"; src: url("") format("opentype"); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: "Agrandir"; src: url("") format("opentype"); font-style: italic; font-weight: 100; font-display: swap; }
+@font-face { font-family: "Agrandir Narrow"; src: url("") format("opentype"); font-style: normal; font-weight: 400; font-display: swap; }

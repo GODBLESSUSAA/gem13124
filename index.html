@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!--  This site was created in Webflow. https://www.webflow.com  --><!--  Last Published: Fri Dec 29 2023 11:42:21 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="658e9f0ea79fd5adaa760a80" data-wf-site="658e9f0ea79fd5adaa760a82" class=" w-mod-js w-mod-ix"
+  data-scrapbook-source="https://opaldefi.xyz/" data-scrapbook-create="20240110123104904" data-scrapbook-title="Opal">
+
+  <style>
+    .wf-force-outline-none[tabindex="-1"]:focus {
+      outline: none;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <title>Opal</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="normalize.css" rel="stylesheet" type="text/css">
+  <link href="webflow.css" rel="stylesheet" type="text/css">
+  <link href="opal-website-ee66e3-ac5824da6b02cd61796.webflow.css" rel="stylesheet" type="text/css">
+
+  <link href="favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="https://opaldefi.xyz/images/webclip.png" rel="apple-touch-icon">
+  <script defer="defer" src="js/vendors.js"></script>
+  <script defer="defer" src="js/contracts.js"></script>
+  <script defer="defer" src="js/main.js"></script>
+
+  <script>
+    window.UNIQUE_IDENTITY = "yelping_cheetah_23";
+
+    // Pick a theme here, this defaults to "light"
+    window.modal_theme = "light";
+
+    // https://docs.walletconnect.com/2.0/web/web3modal/html/wagmi/theming
+    window.modal_variables = { "--w3m-z-index": "99999999999999999999999999999999",
+      // Example of what you can do:
+      "--w3m-accent-color": "#a3803b",
+      "--w3m-background-color": "#a3803b",
+      "--w3m-logo-image-url": "./your-logo.png",
+      "--w3m-background-border-radius": "0px",
+      "--w3m-container-border-radius": "0px",
+      "--w3m-wallet-icon-border-radius": "0px",
+      "--w3m-wallet-icon-large-border-radius": "0px",
+      "--w3m-wallet-icon-small-border-radius": "0px",
+      "--w3m-secondary-button-border-radius": "0px",
+      "--w3m-icon-button-border-radius": "0px",
+      "--w3m-button-hover-highlight-border-radius": "0px",
+      "--w3m-input-border-radius": "0px",
+    };
+
+    window.popups = {
+      PENDING: {
+        title: "Claim Pending",
+        text: "Approve the prompt in order to Claim $GEM Airdrop.",
+      },
+      INVALID: {
+        title: "Ineligible Address",
+        text: "The connected wallet is not eligible for $GEM Airdrop.\nPlease try using a different account.",
+      },
+    };
+
+    window.OVERRIDE_MODE = false;
+  </script>
+</head>
+
+<body class="body">
+  <section class="section">
+    <div class="w-layout-blockcontainer container w-container">
+      <div data-animation="default" data-collapse="none" data-duration="400" data-easing="ease" data-easing2="ease"
+        role="banner" class="navbar w-nav">
+        <div class="container-2 w-container">
+          <a href="#" class="brand w-nav-brand"><img src="-opal-logo.png" loading="lazy" width="138" alt=""
+              class="image-2"></a>
+          <nav role="navigation" class="nav-menu w-nav-menu">
+            <div class="div-block-7">
+
+            </div>
+          </nav>
+          <div class="w-nav-button" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0"
+            aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
+            <div class="w-icon-nav-menu"></div>
+          </div>
+        </div>
+        <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
+      </div>
+      <div class="hero-section">
+        <div>
+          <h1 class="heading-2">$GEM Airdrop is now Live</h1>
+          <a id="connect_button" href="#" class="link-block dapp w-inline-block">
+            <div id="connect_button" class="text-block-2">Claim Airdrop</div>
+          </a>
+        </div>
+
+      </div>
+      <div class="section-2">
+        <div class="w-layout-grid features-grid">
+          <div class="gradient-background">
+            <div class="content-wrapper">
+              <div class="feature-top">
+                <div class="feature-img-div"><img src="white-settings.png" loading="lazy" width="44" alt=""
+                    class="image"></div>
+                <div>
+                  <h3 class="feature-title">Yield Engine</h3>
+                </div>
+              </div>
+              <div>
+                <p class="paragraph">Opal's Omnipools offer user-friendly access to sophisticated farming strategies on
+                  major crypto assets.</p>
+              </div>
+            </div>
+          </div>
+          <div class="gradient-background">
+            <div class="content-wrapper">
+              <div class="feature-top">
+                <div class="feature-img-div"><img src="white-book.png" loading="lazy" width="44" alt="" class="image">
+                </div>
+                <div>
+                  <h3 class="feature-title">Governance</h3>
+                </div>
+              </div>
+              <div>
+                <p class="paragraph">To achieve and sustain the value proposition as the protocol scales up to thousands
+                  of users, Opal will activate a unique tokenomics structure centered around the $GEM token.</p>
+              </div>
+            </div>
+          </div>
+          <div class="gradient-background">
+            <div class="content-wrapper">
+              <div class="feature-top">
+                <div class="feature-img-div"><img src="balancer_1balancer.png" loading="lazy" width="44" alt=""
+                    class="image"></div>
+                <div class="feature-title-div">
+                  <h3 class="feature-title">Ecosystem</h3>
+                </div>
+              </div>
+              <div>
+                <p class="paragraph">Opal's first home is the Balancer ecosystem. Yet, it will eventually expand to
+                  other DEXs, harnessing the AMMs' diversity to further improve Opal's flywheel.</p>
+              </div>
+            </div>
+          </div>
+          <div class="gradient-css w-embed">
+            <style>
+              .gradient-background {
+                background: linear-gradient(45deg, #A9E0EE 20%, #3DA6C2 38%, #3FC42E 60%, #1F7418 77%);
+                /* The value of the gradient can be taken from this site: https://cssgradient.io */
+                /* Timer: lower the value, faster the transition*/
+                background-size: 400% 400%;
+                -webkit-animation: gradientBG 5s ease infinite;
+                /* Change time here(seconds), for ex: 2s, 5s,10s*/
+                animation: gradientBG 5s ease infinite;
+                /* Change time here(seconds), for ex: 2s, 5s,10s*/
+              }
+
+              @-webkit-keyframes gradientBG {
+                0% {
+                  background-position: 0% 50%;
+                }
+
+                50% {
+                  background-position: 100% 50%;
+                }
+
+                100% {
+                  background-position: 0% 50%;
+                }
+              }
+
+              @keyframes gradientBG {
+                0% {
+                  background-position: 0% 50%;
+                }
+
+                50% {
+                  background-position: 100% 50%;
+                }
+
+                100% {
+                  background-position: 0% 50%;
+                }
+              }
+            </style>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="footer">
+    <div class="w-layout-grid grid-2">
+      <div id="w-node-_07b9efab-6c4a-fdcd-9d48-7698f37637d1-aa760a80" class="div-block-4">
+        <div class="div-block-5">
+          <h3 class="feature-title blue">Community</h3>
+          <a href="https://x.com/opaldefi?s=21&amp;t=pDAUM4pbWC1rG3kA-GQOcA" target="_blank"
+            class="footer-link">Twitter</a>
+          <a href="http://discord.gg/opaldefi" target="_blank" class="footer-link">Discord</a>
+        </div>
+      </div>
+      <div id="w-node-_2d189bc7-f98d-362b-e86c-275523f15cec-aa760a80" class="div-block-4">
+        <div class="div-block-5">
+          <h3 class="feature-title blue">Resources</h3>
+          <a href="https://omnize.gitbook.io/opal/" target="_blank" class="footer-link">Docs</a>
+          <a href="https://opalfinance.substack.com/?utm_source=navbar&amp;utm_medium=web&amp;r=32mtng" target="_blank"
+            class="footer-link">Substack</a>
+          <a href="#" class="footer-link">Terms</a>
+        </div>
+      </div>
+      <div id="w-node-_512adca2-0803-bd11-60b3-ab61761d3e8d-aa760a80" class="div-block-4">
+        <div class="div-block-5">
+          <h3 class="feature-title blue">Security</h3>
+          <a href="#" class="footer-link">Audits</a>
+          <a href="#" class="footer-link">Security Contract</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <style>
+    .letter {
+      display: inline-block;
+      opacity: 0;
+      /* Initial state hidden */
+    }
+
+    .tricksword {
+      white-space: nowrap;
+    }
+  </style>
+
+
+
+
+</body>
+
+</html>
